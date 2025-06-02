@@ -16,7 +16,7 @@ const Dashboard = () => {
       change: "+12.5% from last month",
       icon: Users,
       trend: "up" as const,
-      color: "blue"
+      color: "blue" as const
     },
     {
       title: "Active Members",
@@ -24,7 +24,7 @@ const Dashboard = () => {
       change: "+8.2% from last month",
       icon: TrendingUp,
       trend: "up" as const,
-      color: "green"
+      color: "green" as const
     },
     {
       title: "Messages Today",
@@ -32,7 +32,7 @@ const Dashboard = () => {
       change: "+23.1% from last month",
       icon: MessageSquare,
       trend: "up" as const,
-      color: "purple"
+      color: "purple" as const
     },
     {
       title: "Engagement Rate",
@@ -40,7 +40,7 @@ const Dashboard = () => {
       change: "+4.3% from last month",
       icon: Heart,
       trend: "up" as const,
-      color: "pink"
+      color: "pink" as const
     }
   ];
 
