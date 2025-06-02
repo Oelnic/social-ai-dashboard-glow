@@ -2,11 +2,11 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Users, MessageSquare, TrendingUp, Heart, Server, Shield, RefreshCw } from "lucide-react";
+import { Users, MessageSquare, TrendingUp, Heart, RefreshCw } from "lucide-react";
 import { MetricCard } from "@/components/dashboard/MetricCard";
 import { ActivityFeed } from "@/components/dashboard/ActivityFeed";
 import { CommunityOverview } from "@/components/dashboard/CommunityOverview";
-import { BackendStatus } from "@/components/dashboard/BackendStatus";
+import { AISummary } from "@/components/dashboard/AISummary";
 
 const Dashboard = () => {
   const metrics = [
@@ -66,8 +66,8 @@ const Dashboard = () => {
           ))}
         </div>
 
-        {/* Backend Integration Status */}
-        <BackendStatus />
+        {/* AI Summary */}
+        <AISummary />
 
         {/* Main Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
